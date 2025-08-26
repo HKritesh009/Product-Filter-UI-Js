@@ -4,7 +4,7 @@ A simple **HTML, CSS, and JavaScript** based **Product Filter & Search UI**.
 Filter products by **category (All, Laptop, Mobile, Accessories, etc.)**,  
 search by **name**, and sort by **price (low-high, high-low)** or **alphabetically (A–Z, Z–A)**.  
 
-✨ Clean, responsive, and beginner-friendly project.  
+✨ Clean, responsive, and beginner-friendly project...  
 
 ---
 
