@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Filter</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="container">
+        <h1>🛒 Product Filter UI</h1>
+
+        <!-- Filter Section -->
+        <div class="filters">
+            <button class="filter-btn" data-category="all">All</button>
+            <button class="filter-btn" data-category="Mobile">Mobile</button>
+            <button class="filter-btn" data-category="Laptop">Laptop</button>
+        </div>
+      
+        <div class="search-sort">
+      <input type="text" id="search-input" placeholder="Search by name..." />
+      <select id="sort-select">
+        <option value="none">Sort by</option>
+        <option value="az">Name A–Z</option>
+        <option value="za">Name Z–A</option>
+      </select>
+      <select id="price-filter">
+        <option value="all">All Prices</option>
+        <option value="under10k">Under ₹10,000</option>
+        <option value="under20k">Under ₹20,000</option>
+        <option value="above20k">Above ₹20,000</option>
+      </select>
+    </div>
+        <!-- Product Container -->
+          <div id="product-list" class="product-list">
+            <h4 class="name"></h4>
+            <h5 class="company"></h5>
+        </div>
+
+    </div>
+    <script type="module" src="app.js"></script>
+</body>
+
+</html>
