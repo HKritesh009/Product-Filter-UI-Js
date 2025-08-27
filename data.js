@@ -32,9 +32,10 @@ export const products = [
     cname: "Yoga Slim",
     company: "Lenovo",
     price: 59999,
-    image: "images/yoga."
+    image: "images/yoga.jpg"
   }
 ];
+
 
 
 
